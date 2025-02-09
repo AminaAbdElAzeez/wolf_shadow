@@ -7,13 +7,13 @@ import { IoMdClose } from "react-icons/io";
 import { AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
-import { useTranslations } from "next-intl";
 import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
+import { useTranslations } from "next-intl";
 
 function Header() {
   const [toggle, setToggle] = useState(false);
   const path = usePathname();
-  const t = useTranslations("Header"); // استخدام الترجمة بشكل صحيح
+  const t = useTranslations("Header");
 
   return (
     <header className={styles.header}>

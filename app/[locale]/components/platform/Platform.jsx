@@ -1,7 +1,7 @@
 "use client";
 import { useTranslations } from "next-intl";
 import styles from "./Platform.module.css";
-function Platform({ locale }) {
+function Platform() {
   const { t } = useTranslations("Platform");
 
   return (

@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 // import styles from "./page.module.css";
 import Statistics from "./components/statistics/Statistics";
@@ -9,12 +10,12 @@ import ProfileSlider from "./components/profileSlider/profileSlider";
 import Slider from "./components/slider/slider";
 import ChooseUs from "./components/chooseUs/ChooseUs";
 import Platform from "./components/platform/Platform";
-a;
 export default function Home({ params }) {
   console.log(params);
   return (
     <section className="home">
-      <Platform />
+    
+      {/* <Platform />
       <Statistics />
       <Slider />
       <AboutUs />
@@ -22,7 +23,7 @@ export default function Home({ params }) {
       <Offer />
       <OurServices />
       <ProfileSlider />
-      <ContactUs />
+      <ContactUs /> */}
     </section>
   );
 }
