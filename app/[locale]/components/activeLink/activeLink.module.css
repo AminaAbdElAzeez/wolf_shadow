@@ -1,0 +1,38 @@
+.link {
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #111111;
+  font-weight: 600;
+  display: block;
+  padding: 7px;
+}
+.active {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ce0909;
+  display: block;
+  padding: 7px;
+}
+@media (max-width: 768px) {
+  .link,
+  .active {
+    margin-bottom: 10px;
+    padding: 7px 15px;
+    transition: color 0.5s, background-color 0.5s;
+    -webkit-transition: color 0.5s, background-color 0.5s;
+    -moz-transition: color 0.5s, background-color 0.5s;
+    -ms-transition: color 0.5s, background-color 0.5s;
+    -o-transition: color 0.5s, background-color 0.5s;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .link:hover,
+  .active:hover {
+    background-color: #ce0909;
+    color: #fff;
+  }
+}

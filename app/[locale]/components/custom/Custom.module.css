@@ -1,0 +1,85 @@
+.custom {
+  background-image: url(../../../public/images/Rectangle-5.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center bottom;
+}
+.customContent {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 10px;
+}
+.title {
+  color: #ffffff;
+  height: 200px;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 68px;
+  margin-top: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: color 0.5s, margin-left 0.5s;
+  -webkit-transition: color 0.5s, margin-left 0.5s;
+  -moz-transition: color 0.5s, margin-left 0.5s;
+  -ms-transition: color 0.5s, margin-left 0.5s;
+  -o-transition: color 0.5s, margin-left 0.5s;
+}
+.title:hover {
+  color: #eb232b;
+  margin-left: 20px;
+}
+.dash {
+  background-color: #eb232b;
+  width: 55px;
+  height: 8px;
+}
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 39px;
+    line-height: 50px;
+  }
+  .title:hover {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 561px) {
+  .title {
+    font-size: 30px;
+    line-height: 40px;
+    gap: 8px;
+  }
+  .dash {
+    width: 45px;
+    height: 7px;
+  }
+}
+@media screen and (max-width: 449px) {
+  .title {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .dash {
+    width: 30px;
+    height: 5px;
+  }
+}
+@media screen and (max-width: 378px) {
+  .title {
+    font-size: 21px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 335px) {
+  .title {
+    font-size: 17px;
+    line-height: 25px;
+    gap: 6px;
+  }
+  .dash {
+    width: 25px;
+  }
+}

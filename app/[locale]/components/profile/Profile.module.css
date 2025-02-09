@@ -1,0 +1,120 @@
+.profile {
+  padding: 60px 10px;
+}
+.profileContent {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+.profileItem {
+  width: 50%;
+  position: relative;
+}
+.profileItem > img {
+  width: 100%;
+  height: 470px;
+}
+.profileItem > h4 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  background: linear-gradient(to bottom, rgb(235, 35, 43), rgb(133, 20, 24));
+  border-radius: 0 0 10px 10px;
+  -webkit-border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+  -ms-border-radius: 0 0 10px 10px;
+  -o-border-radius: 0 0 10px 10px;
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+}
+.profileItem:hover > h4 {
+  color: #011222;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+.paginationItem {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.paginationItem:first-child {
+  background-color: #f3f3f3;
+  color: #666666;
+}
+.paginationItem:nth-child(2),
+.paginationItem:last-child {
+  background-color: #eb232b;
+  color: #ffffff;
+}
+.paginationItem:nth-child(3),
+.paginationItem:nth-child(4),
+.paginationItem:nth-child(5) {
+  background-color: #ffeeee;
+  color: #666666;
+}
+@media screen and (max-width: 768px) {
+  .profileContent {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .profileItem {
+    width: 90%;
+  }
+  .profileItem > img {
+    height: 430px;
+  }
+}
+@media screen and (max-width: 435px) {
+  .profileItem > img {
+    height: 350px;
+    width: 100%;
+  }
+  .profileItem > h4 {
+    font-size: 20px;
+    height: 70px;
+    line-height: 70px;
+  }
+  .pagination {
+    gap: 7px;
+    margin-top: 40px;
+  }
+  .paginationItem {
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+  }
+}
+@media screen and (max-width: 372px) {
+  .profileItem > h4 {
+    font-size: 16px;
+    height: 70px;
+    line-height: 70px;
+  }
+}

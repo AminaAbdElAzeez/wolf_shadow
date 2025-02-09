@@ -1,0 +1,93 @@
+.profileTitle {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 0 10px;
+}
+.subTitle {
+  color: #ce0909;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.title {
+  color: #011222;
+  font-size: 52px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+.title:hover {
+  animation: text-shadow-multicolor 2s ease 0s infinite normal none;
+}
+@keyframes text-shadow-multicolor {
+  0% {
+    text-shadow: 0 0px 15px #f0f;
+  }
+  33% {
+    text-shadow: 0 0px 15px #ff0;
+  }
+  66% {
+    text-shadow: 0 0px 10px #0f0;
+  }
+  100% {
+    text-shadow: 0 0px 10px #ce0909;
+  }
+}
+.title + img {
+  margin-bottom: 10px;
+}
+.desc {
+  color: #5b6b7a;
+  font-size: 18px;
+  font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+  .subTitle {
+    font-size: 20px;
+  }
+  .title {
+    font-size: 40px;
+  }
+  .title + img {
+    margin-bottom: 10px;
+  }
+  .desc {
+    font-size: 16px;
+  }
+  .desc > br {
+    display: none;
+  }
+}
+@media screen and (max-width: 560px) {
+  .subTitle {
+    font-size: 18px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .title + img {
+    margin-bottom: 5px;
+  }
+  .desc {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 435px) {
+  .subTitle {
+    font-size: 16px;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .desc {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 372px) {
+  .subTitle {
+    font-size: 15px;
+  }
+  .title {
+    font-size: 22px;
+  }
+}

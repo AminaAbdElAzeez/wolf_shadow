@@ -1,0 +1,37 @@
+.statistics {
+  background-color: #111111;
+  color: #fff;
+  padding: 60px 0 45px 0;
+}
+.statisticsContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+.statisticsItem {
+  width: 168px;
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+}
+.statisticsItem:hover {
+  color: #ce0909;
+}
+.subTitle {
+  font-size: 18px;
+  font-weight: 400;
+}
+.title {
+  font-size: 48px;
+  font-weight: 700;
+}
+@media screen and (max-width: 1023px) {
+  .statisticsContent {
+    gap: 20px;
+  }
+}

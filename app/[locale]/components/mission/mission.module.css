@@ -1,0 +1,52 @@
+.custom {
+  background-image: url(../../../public/images/Rectangle-38.png);
+  height: 100vh;
+  background-size: cover;
+  /* background-position: top; */
+}
+.customContent {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.content {
+  padding: 0px 10px 80px 10px;
+}
+.title {
+  color: #ffffff;
+  width: max-content;
+  margin-bottom: 10px;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 62px;
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+}
+.title:hover {
+  color: #ce0909;
+}
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 39px;
+    line-height: 50px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .title {
+    font-size: 33px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .title {
+    font-size: 28px;
+    line-height: 35px;
+  }
+}

@@ -1,0 +1,318 @@
+.header {
+  position: fixed;
+  width: 100%;
+  height: 85px;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 9999;
+  padding: 0 5px;
+}
+.navContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  height: 85px;
+}
+.logo {
+  width: 15%;
+  height: 70px;
+}
+.logo:hover > img {
+  animation: rotate-out-center 1s linear 0s 1 normal none;
+  -webkit-animation: rotate-out-center 1s linear 0s 1 normal none;
+}
+@keyframes rotate-out-center {
+  0% {
+    transform: rotate(-360deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+.navLinksWrapper {
+  width: 65%;
+}
+.navLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navLinks > li {
+  margin: 0 7px;
+}
+.link {
+  text-transform: capitalize;
+  font-size: 18px;
+  line-height: 27px;
+  color: #111111;
+  font-weight: 600;
+  display: block;
+  padding: 7px;
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+}
+.link:hover {
+  color: #ce0909;
+}
+.active {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ce0909;
+  display: block;
+  padding: 7px;
+}
+.right {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.orderBtn {
+  background-color: #ce0909;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  width: 175px;
+  height: 48px;
+  border: 1px solid #ce0909;
+  outline: none;
+  cursor: pointer;
+  text-transform: capitalize;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  position: relative;
+  z-index: 2;
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.orderBtn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  margin: auto;
+  width: 95%;
+  height: 0%;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  -moz-transition: height 0.5s;
+  -ms-transition: height 0.5s;
+  -o-transition: height 0.5s;
+}
+.orderBtn:hover::after {
+  height: 85%;
+}
+.orderBtn:hover {
+  color: #ce0909;
+}
+/* .langToggleBtn {
+  width: 48px;
+  height: 32px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  cursor: pointer;
+} */
+/* .langToggleBtn > img {
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  object-fit: cover;
+} */
+.menu {
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  display: none;
+  width: 50px;
+  height: 48px;
+  background-color: #ce0909;
+  color: #fff;
+}
+@media (max-width: 1023px) {
+  .navLinks > li {
+    margin: 0 3px;
+  }
+  .link,
+  .active {
+    font-size: 16px;
+  }
+  .orderBtn {
+    width: 140px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .navLinksWrapper {
+    width: 100%;
+    padding: 20px 15px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    z-index: 100;
+    background-color: #f9f9f9;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  .navLinks {
+    margin-left: 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navLinks li {
+    width: 100%;
+    margin: 0;
+    transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .navLinks li:hover {
+    background-color: #ce0909;
+  }
+  .link,
+  .active {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-bottom: 5px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: margin-left 0.5s, color 0.5s;
+    -webkit-transition: margin-left 0.5s, color 0.5s;
+    -moz-transition: margin-left 0.5s, color 0.5s;
+    -ms-transition: margin-left 0.5s, color 0.5s;
+    -o-transition: margin-left 0.5s, color 0.5s;
+  }
+  .link:hover,
+  .active:hover {
+    margin-left: 10px;
+    color: #fff;
+  }
+  .right {
+    width: 50%;
+  }
+  .logo {
+    width: 50%;
+  }
+  .menu {
+    height: 35px;
+    width: 40px;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid #ce0909;
+    transition: background-color 0.5s, color 0.5s;
+    -webkit-transition: background-color 0.5s, color 0.5s;
+    -moz-transition: background-color 0.5s, color 0.5s;
+    -ms-transition: background-color 0.5s, color 0.5s;
+    -o-transition: background-color 0.5s, color 0.5s;
+  }
+  .menu:hover {
+    background-color: #fff;
+    color: #ce0909;
+  }
+  .orderBtn {
+    font-size: 14px;
+    width: 130px;
+    height: 40px;
+  }
+}
+@media (max-width: 560px) {
+  .right {
+    width: 80%;
+    align-items: flex-end;
+  }
+  .logo {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .header {
+    height: 65px;
+  }
+  .navContent {
+    height: 65px;
+  }
+  .logo {
+    height: 45px;
+  }
+  .logo > img {
+    width: 55px;
+    height: 45px;
+  }
+  .right {
+    gap: 7px;
+  }
+  .menu {
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    padding: 4px;
+  }
+  .orderBtn {
+    font-size: 9px;
+    width: 85px;
+    height: 30px;
+  }
+  .langToggleBtn {
+    width: 30px;
+    height: auto;
+  }
+  .langToggleBtn > img {
+    width: 30px;
+    height: auto;
+  }
+}

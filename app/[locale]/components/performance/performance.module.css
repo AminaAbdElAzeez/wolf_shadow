@@ -1,0 +1,207 @@
+.performance {
+    padding: 50px 5px;
+}
+.performanceContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.performanceLeft {
+    width: 35%;
+    height: 630px;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.performanceLeft > img {
+    width: 100%;
+    height: 630px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+    -moz-transition: transform 0.5s;
+    -ms-transition: transform 0.5s;
+    -o-transition: transform 0.5s;
+}
+.performanceLeft:hover > img {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.performanceRight {
+    width: 65%;
+}
+.performanceRightTitle {
+    color: #363636;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 5px;
+    transition: color 0.3s ease, -webkit-text-stroke 0.3s ease;
+    transition: color 0.3s ease, text-stroke 0.3s ease;
+}
+
+.performanceRightTitle:hover {
+    color: transparent;
+  -webkit-text-stroke: 2px #011222;
+}
+
+.performanceRightSubTitle {
+    color: #EB2A25;
+    font-size: 32px;
+    font-weight: 500;
+    line-height:48px ;
+    margin-bottom: 15px;
+}
+.performanceRightSubTitle:hover {
+    animation: text-shadow-multicolor 2s ease 0s infinite normal none;
+}
+@keyframes text-shadow-multicolor {
+  0% {
+    text-shadow: 0 0px 15px #f0f;
+  }
+  33% {
+    text-shadow: 0 0px 15px #ff0;
+  }
+  66% {
+    text-shadow: 0 0px 10px #0f0;
+  }
+  100% {
+    text-shadow: 0 0px 10px #ce0909;
+  }
+}
+.performanceRightSubTitle > span {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.performanceRightDesc {
+    color: #606060;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:1350px) {
+    .performanceContent {
+        gap: 50px;
+    }
+    .performanceLeft ,
+    .performanceLeft > img {
+        height: 520px;
+    }
+    .performanceRightTitle {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .performanceRightSubTitle {
+        font-size: 28px;
+        line-height:40px ;
+        margin-bottom: 10px;
+    }
+    .performanceRightDesc {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:1023px) {
+    .performanceContent {
+        gap: 30px;
+    }
+    .performanceLeft,
+    .performanceLeft > img {
+        height: 450px;
+    }
+    .performanceRightTitle {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .performanceRightSubTitle {
+        font-size: 22px;
+        line-height:32px ;
+    }
+    .performanceRightDesc {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .performanceRightDesc > br {
+        display: none;
+    }
+}
+@media screen and (max-width:768px) {
+    .performanceContent {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .performanceLeft {
+        width: 280px;
+        height: 400px;
+        text-align: center;
+    }
+    .performanceLeft > img {
+        width: 280px;
+        height: 400px;
+    }
+    .performanceRight {
+        width: 100%;
+    }
+    .performanceRightSubTitle > br {
+        display: none;
+    }
+
+}
+@media screen and (max-width:400px) {
+    .performanceRightTitle {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .performanceRightSubTitle {
+        font-size: 20px;
+        line-height:30px ;
+    }
+}
+@media screen and (max-width:338px) {
+    .performanceContent {
+        gap: 15px;
+    }
+    .performanceLeft,
+    .performanceLeft > img {
+        width: 100%;
+        height: 390px;
+    }
+    .performanceRightTitle {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .performanceRightSubTitle {
+        font-size: 18px;
+        line-height:26px ;
+    }
+    .performanceRightDesc {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+@media screen and (max-width:309px) {
+    .performanceRightTitle {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .performanceRightSubTitle {
+        font-size: 16px;
+        line-height:25px ;
+        margin-bottom: 5px;
+    }
+}
