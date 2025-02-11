@@ -14,13 +14,10 @@ const LanguageSwitcher = () => {
   const toggleLanguage = () => {
     const newLang = locale === "en" ? "ar" : "en";
 
-    // ✅ تحديث اللغة في الكوكيز
     Cookies.set("NEXT_LOCALE", newLang, { expires: 365 });
 
-    // ✅ تغيير اتجاه الصفحة بناءً على اللغة
     document.documentElement.dir = newLang === "ar" ? "rtl" : "ltr";
 
-    // ✅ إعادة التوجيه مع تغيير اللغة في الرابط
     const newPath = `/${newLang}${pathname.replace(/^\/(en|ar)/, "")}`;
     router.push(newPath);
   };

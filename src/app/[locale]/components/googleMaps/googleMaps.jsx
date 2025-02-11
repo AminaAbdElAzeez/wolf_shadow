@@ -7,7 +7,6 @@ import dynamic from "next/dynamic";
 import "leaflet/dist/leaflet.css";
 import { useTranslations } from "next-intl";
 
-// تأكد من تحميل المكونات بشكل ديناميكي بدون SSR
 const MapContainer = dynamic(
   () => import("react-leaflet").then((mod) => mod.MapContainer),
   { ssr: false }
@@ -36,13 +35,12 @@ const containerStyle = {
 
 function GoogleMaps() {
   const [isClient, setIsClient] = useState(false);
-  const t = useTranslations("GoogleMaps"); // 🚀 تم نقله إلى بداية الـ Component
+  const t = useTranslations("GoogleMaps");
 
   useEffect(() => {
     setIsClient(true);
 
     if (typeof window !== "undefined") {
-      // تأكد أن الكود يعمل فقط على الـ Client
       try {
         delete L.Icon.Default.prototype._getIconUrl;
         L.Icon.Default.mergeOptions({
@@ -60,7 +58,7 @@ function GoogleMaps() {
     }
   }, []);
 
-  if (!isClient) return null; // منع الـ SSR نهائيًا
+  if (!isClient) return null; 
 
   return (
     <section className={styles.googleMaps}>

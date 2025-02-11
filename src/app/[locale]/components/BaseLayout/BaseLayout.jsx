@@ -8,7 +8,7 @@ import Footer from "../footer/Footer";
 
 const tajawal = Tajawal({
   subsets: ["latin", "arabic"],
-  weight: ["400", "700"], // الأوزان المطلوبة للخط
+  weight: ["400", "700"],
   variable: "--font-tajawal",
 });
 
