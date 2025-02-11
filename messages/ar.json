@@ -167,5 +167,39 @@
     "serveTitle": "تم تقديم الخدمة بنجاح",
     "serveDesc": "يرجى التحلي بالصبر حتى نصل إليك في أقرب وقت ممكن",
     "serveBtn": "انتهيت"
+  },
+  "ServicePayment": {
+    "ourServicesSubTitle":"خدماتنا",
+    "ourServicesTitle":"نحن نقدم خدمات موثوقة",
+    "ourServicesDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br/> tempor incididunt ut labore et dolore ",
+    "servicePaymentItemTitle":"تفاصيل الخدمة",
+    "servicePaymentItemTitle2":"نوع السيارة",
+    "servicePaymentItemTitle3":"تويوتا ياريس",
+    "servicePaymentItemTitle4":"سكودا رابيد",
+    "servicePaymentItemTitle5":"هيونداي أكسنت",
+    "servicePaymentItemTitle6":"حجم السيارة",
+    "servicePaymentItemTitle7":"نوع السيارة",
+    "servicePaymentItemTitle8":"التاريخ والوقت وخدمة الدفع",
+    "servicePaymentItemTitle9":"نوع الدفع",
+    "servicePaymentItemTitle10":"معلومات شخصية",
+    "select1":"سيدان",
+    "select2":"جاك",
+    "select3":"جاك",
+    "select4":"لوسي",
+    "select5":"لوسي",
+    "select6":"ييمينجهي",
+    "select7":"ييمينجهي",
+    "selectService":"نوع الخدمات",
+    "selectBranch":"حدد الفرع",
+    "date":"تاريخ البدء",
+    "endDate":"تاريخ النهاية",
+    "fullname":"الاسم الكامل",
+    "email":"البريد الإلكتروني",
+    "phone":"رقم الهاتف",
+    "copon":"كود الخصم",
+    "ApplyBtn":"تقدم بطلبك",
+    "confirm":"تأكيد الحجز"
+
+
   }
 }

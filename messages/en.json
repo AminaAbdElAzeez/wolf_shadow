@@ -168,5 +168,38 @@
     "serveTitle": "Served successfully",
     "serveDesc": "Please be patient, Until we reach you in ASAP",
     "serveBtn": "Done"
+  },
+  "ServicePayment": {
+    "ourServicesSubTitle":"Our Services",
+    "ourServicesTitle":"Our providing reliable ",
+    "ourServicesDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br/> tempor incididunt ut labore et dolore ",
+    "servicePaymentItemTitle":"Details Service",
+    "servicePaymentItemTitle2":"Vehicle Type",
+    "servicePaymentItemTitle3":"Toyota Yaris",
+    "servicePaymentItemTitle4":"Scoda Rapid",
+    "servicePaymentItemTitle5":"Hyundai Verna",
+    "servicePaymentItemTitle6":"Vehicle Size",
+    "servicePaymentItemTitle7":"Vehicle Type",
+    "servicePaymentItemTitle8":"Date/Time & Payment Service",
+    "servicePaymentItemTitle9":"Payment Type",
+    "servicePaymentItemTitle10":"Personal info",
+    "select1":"SEDAN",
+    "select2":"jack",
+    "select3":"Jack",
+    "select4":"lucy",
+    "select5":"Lucy",
+    "select6":"Yiminghe",
+    "select7":"yiminghe",
+    "selectService":"Services Type",
+    "selectBranch":"Select Branch",
+    "date":"Start Date",
+    "endDate":"End Date",
+    "fullname":"Full Name",
+    "email":"Email",
+    "phone":"Phone Number",
+    "copon":"Copon Code",
+    "ApplyBtn":"Apply",
+    "confirm":"Confirm Booking"
+
   }
 }
