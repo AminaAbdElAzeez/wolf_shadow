@@ -1,0 +1,171 @@
+{
+  "Header": {
+    "navHome": "الصفحة الرئيسية",
+    "Works": "أعمال",
+    "services": "خدمات",
+    "About": "معلومات عنا",
+    "contact": "اتصال",
+    "OrderServices": "طلب الخدمات"
+  },
+  "Platform": {
+    "steps": "/ السيارة بخطوات سهلة",
+    "perfeet": "الطريقة المثالية للشراء",
+    "sell": "وبيع السيارة على موقعنا",
+    "platform": "منصة",
+    "KnewMore": "أعرف المزيد"
+  },
+  "Statistics": {
+    "CARRENTED": "سيارة مستأجرة",
+    "SATISFIEDCLIENTS": "العملاء الراضون",
+    "YEARSEXPERIENCE": "سنوات الخبرة",
+    "CARTYPES": "أنواع السيارات"
+  },
+  "AboutUs": {
+    "aboutUsSubTitle": "معلومات عنا",
+    "aboutUsTitle1": "توفير موثوق بها",
+    "aboutUsTitle2": "تأجير السيارات",
+    "text1": "لوريم إيبسوم دولور سيت أميت، كونسيكتيتور أديبيسينج إليت، سيد دو",
+    "text2": "في مثل هذه الأوقات يحدث الألم الشديد. مثل",
+    "text3": "ففي رأيي المتواضع، من منا يرغب في القيام بأي تمرين شاق؟",
+    "text4": "إلا إذا كان ذلك.",
+    "safe": "آمن وموثوق",
+    "AffordablePrice": "سعر معقول"
+  },
+  "ChooseUs": {
+    "chooseUsTitle": "لماذا تختارنا؟",
+    "chooseUsItemTitle": "التمويل أصبح سهلا",
+    "chooseUsItemDesc1": "اختر ما يناسبك وابحث عنه",
+    "chooseUsItemDesc2": "سيارتك الافضل",
+    "chooseUsItemTitle2": "مجموعة واسعة من العلامات التجارية",
+    "chooseUsItemDesc3": "حدد تاريخ الاستلام الخاص بك",
+    "chooseUsItemDesc4": "حان الوقت لحجز سيارتك",
+    "chooseUsItemTitle3": "موثوق به من قبل الآلاف",
+    "chooseUsItemDesc5": "احجز سيارتك وسوف نقوم بتسليمها",
+    "chooseUsItemDesc6": "انها لك مباشرة"
+  },
+  "Offer": {
+    "offerSubtitle": "لماذا تختارنا؟",
+    "offertitle1": " نحن نقدم أفضل تجربة",
+    "offertitle2": " مع عروض الإيجار لدينا ",
+    "offertitle3": " أفضل سعر مضمون",
+    "offerDesc1": "هل تجد سعرًا أقل؟ سنعيد لك أموالك بنسبة 100%",
+    "offerDesc2": "من الفرق.",
+    "offertitle4": "خدمات الخبرة",
+    "offerDesc3": "لا تقلق، لدينا العديد من ذوي الخبرة",
+    "offerDesc4": "خدمات لك.",
+    "offertitle5": "توصيل السيارات خلال 24 ساعة",
+    "offerDesc5": "احجز سيارتك في أي وقت وسنقوم بتسليمها لك",
+    "offerDesc6": "إليك مباشرة.",
+    "offertitle6": "دعم فني على مدار 24 ساعة طوال أيام الأسبوع",
+    "offerDesc7": "هل لديك سؤال؟ تواصل مع فريق دعم Rentcars",
+    "offerDesc8": "في أي وقت عندما يكون لديك مشكلة."
+  },
+  "OurServices": {
+    "OurServicesTitle": "خدماتنا",
+    "OurServicesDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+    "OurServicesItemTitle": "أفلام حماية الطلاء",
+    "OurServicesItemDesc": "توقف عن القلق بشأن الأضرار أو الخدوش التي قد تلحق بطلاء سيارتك والتأثيرات الأخرى للأسطح الملساء والمزخرفة.",
+    "OurServicesItemLink": "طلب الخدمات"
+  },
+  "ProfileSlider": {
+    "ProfileSliderSubTitle": "أعمالنا",
+    "ProfileSliderTitle": "نحن نقدم خدمات موثوقة",
+    "ProfileSliderDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br/> tempor incididunt ut labore et dolore",
+    "ProfileSliderItemTitle": "أفلام حماية الطلاء"
+  },
+  "ContactUs": {
+    "ContactUsTitle": "اتصل بنا",
+    "ContactUsDesc": "حدد تاريخ ووقت الاستلام لحجز سيارتك",
+    "ContactUsBtn": "إرسال",
+    "ContactUsplaceholderName": "الاسم الكامل",
+    "ContactUsplaceholderEmail": "البريد الإلكتروني",
+    "ContactUsplaceholderSubject": "الموضوع",
+    "ContactUsplaceholderDetails": "اكتب التفاصيل"
+  },
+  "Footer": {
+    "footerDesc": "Lorem ipsum dolor sit amet, <br/> consectetur adipiscing elit, sed <br/> do eiusmod tempor incididunt.",
+    "footerMenuBar": "شريط القائمة",
+    "footerHome": "الصفحة الرئيسية",
+    "footerWorks": "الاعمال",
+    "footerServices": "الخدمات",
+    "footerAbout": "معلومات عنا",
+    "footerContact": "اتصل بنا",
+    "footerQuickContact": "الاتصال السريع",
+    "footerAddress": "المملكة العربية السعودية، <br/> الدمام، جدة",
+    "footerPhone": "+603 4784 273 12",
+    "footerEmail": "wolfshadow@gmail.com",
+    "footerCopyRight": "جميع الحقوق محفوظة لشركة Apps Square © 2025.",
+    "footerPrivacy": "سياسة الخصوصية",
+    "footerTerms": "بنود الخدمة"
+  },
+  "Custom": {
+    "customTitle": "تصور، تخصيص، <br/> تحقيق."
+  },
+  "VideoSection": {
+    "videoNotSupported": "المتصفح الخاص بك لا يدعم علامة الفيديو",
+    "videoTitle": "مرحبًا بكم في عالم السيارات",
+    "videoDesc": "Praesent consequat pharetra commodo. Vestibulum nec <br /> lectus nibh. Curabitur tellus leo, euismod sit amet gravida at, <br /> egestas sed lectus."
+  },
+  "TopServices": {
+    "servicesTitle": "خدماتنا الشاملة",
+    "servicesSubTitle": "اكتشف خدماتنا"
+  },
+  "ServicesContent": {
+    "servicesSubTitle": "الخدمات لدينا",
+    "servicesTitle": "نحن نقدم خدمات موثوقة",
+    "servicesDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br/> tempor incididunt ut labore et dolore",
+    "servicesItemTitle": "أفلام حماية الطلاء",
+    "servicesItemDesc": "توقف عن القلق بشأن الأضرار أو الخدوش التي قد تلحق بطلاء سيارتك والآثار الأخرى الناجمة عن الأسطح الملساء والمزخرفة.",
+    "servicesItemLink": "طلب الخدمات"
+  },
+  "Mission": {
+    "missionTitle": "مهمتنا وقيمنا"
+  },
+  "Solution": {
+    "solutionLeftDesc": "نحن نهتم بالبرامج الصحية للجميع",
+    "solutionTitle": "أفضل الحلول توفر <br /> السيارة الكهربائية",
+    "solutionDesc": "Car Dealer هو موضوع WordPress المتميز الأكثر جاذبية وإبداعًا وحداثة ومتعدد الأغراض لتجار السيارات. <br /> مناسب لأي مواقع ويب لتجار السيارات أو مواقع الويب التجارية أو المؤسسية.",
+    "solutionOnline": "حجز موعد عبر الإنترنت",
+    "solutionAuto": "خدمة تأجير السيارات",
+    "solutionDesc2": "Car Dealer هو قالب WordPress المتميز الأكثر جاذبية وإبداعًا وحداثة ومتعدد الأغراض لوكلاء السيارات. مناسب لأي مواقع ويب لوكلاء السيارات أو مواقع الويب التجارية أو المؤسسية."
+  },
+  "Performance": {
+    "performanceSubTitle": "تعرف علينا",
+    "performanceTitle1": " مرحبا بكم في ",
+    "performanceTitle2": " Wolf Shadow",
+    "performanceTitle3": " Fab & <br /> الأداء ",
+    "performanceDesc1": "حيث يلتقي الشغف بالدقة. منذ عام 1995، نعمل على إعادة تعريف تعديل المركبات. يتقاسم فريقنا الودود من المحترفين حب إتقان السيارات. نحن نضع الاتجاهات بالتميز المبتكر، مما يضمن تميز سيارتك. ارتقِ بسيارتك من خلال التزامنا بالدقة. انضم إلينا في رحلة حيث تتحول أحلامك في مجال السيارات إلى حقيقة.",
+    "performanceDesc2": "حيث يلتقي الشغف بالدقة. منذ عام 1995، نعمل على إعادة تعريف تعديل المركبات. يتقاسم فريقنا الودود من المحترفين حب إتقان السيارات. نحن نضع الاتجاهات بالتميز المبتكر، مما يضمن تميز مركبتك. ارتقِ بسيارتك مع"
+  },
+  "TopContact": {
+    "topContactTitle": "تواصل معنا"
+  },
+  "ContactInfo": {
+    "contactInfoContacts": "جهات الاتصال",
+    "contactInfoTitle": "معلومات الاتصال",
+    "contactInfoDesc": "هل لديك سؤال أو تعليق؟ تواصل معنا! نحن هنا لمساعدتك بسرعة وكفاءة. اتصل بنا اليوم",
+    "contactInfoTitle2": "مكان العمل",
+    "contactInfoLocation": "المملكة العربية السعودية، الدمام، <br/> جدة",
+    "contactInfoTitle3": "ساعات العمل",
+    "contactInfoTime1": "بداية العمل كل يوم",
+    "contactInfoTime2": "من",
+    "contactInfoTime3": " 9 صباحًا إلى 10 مساءً",
+    "contactInfoTitle4": "الاتصال عبر رقم الهاتف",
+    "contactInfoPhone": "+5526587878"
+  },
+  "GoogleMaps": {
+    "googleMapsTitle": "يمكنك الوصول إلينا عبر الخريطة"
+  },
+  "Sent": {
+    "sentSubTitle": "تم ارسال الرسالة",
+    "sentTitle": "تم الإرسال بنجاح",
+    "sentDesc": "لقد تم إرسال رسالتك بنجاح، وسنتواصل معك في أقرب وقت ممكن",
+    "sentBtn": "انتهيت"
+  },
+  "Serve": {
+    "serveSubTitle": "الطلب في انتظار المراجعة",
+    "serveTitle": "تم تقديم الخدمة بنجاح",
+    "serveDesc": "يرجى التحلي بالصبر حتى نصل إليك في أقرب وقت ممكن",
+    "serveBtn": "انتهيت"
+  }
+}

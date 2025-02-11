@@ -1,0 +1,189 @@
+.contactUs {
+  padding: 100px 0 70px 0;
+  background-image: linear-gradient(to right, #db2d2e 21%, #161920 21%);
+}
+.contactUsContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 70px;
+}
+.contactUsLeftAr,
+.contactUsLeft {
+  width: 55%;
+}
+.contactUsRight {
+  width: 45%;
+}
+.contactUsLeftAr,
+.contactUsLeft {
+  position: relative;
+}
+.contactUsTitle {
+  padding-left: 40px;
+}
+.contactUsTitle > img:first-child {
+  max-width: 65%;
+  height: auto;
+  margin-bottom: 30px;
+}
+.contactUsTitle > img:last-child {
+  max-width: 96%;
+  height: auto;
+}
+.contactUsLeftAr > .car,
+.contactUsLeft > .car {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 220px;
+  left: -25px;
+}
+.contactUsRightTitle {
+  margin-bottom: 25px;
+}
+.RightTitle {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 12px;
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+}
+.RightTitle:hover {
+  color: #ce0909;
+}
+.RightTitle + img {
+  margin-bottom: 7px;
+}
+.RightDesc {
+  color: #e8e8e8;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+.contactUsForm > input,
+.contactUsForm > textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #ffffff;
+  padding: 15px;
+  background-color: transparent;
+  outline: none;
+  transition: outline 0.5s, border 0.5s;
+  -webkit-transition: outline 0.5s, border 0.5s;
+  -moz-transition: outline 0.5s, border 0.5s;
+  -ms-transition: outline 0.5s, border 0.5s;
+  -o-transition: outline 0.5s, border 0.5s;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.contactUsForm > input:focus,
+.contactUsForm > textarea:focus {
+  outline: 1px solid #db2d2e;
+  border: 1px solid #db2d2e;
+}
+.formBtn {
+  background-color: #ce0909;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  border: 1px solid #ce0909;
+  width: 78px;
+  height: 52px;
+  cursor: pointer;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  transition: background-color 0.5s, color 0.5s;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  -moz-transition: background-color 0.5s, color 0.5s;
+  -ms-transition: background-color 0.5s, color 0.5s;
+  -o-transition: background-color 0.5s, color 0.5s;
+}
+.formBtn:hover {
+  background-color: #fff;
+  color: #ce0909;
+}
+@media screen and (max-width: 1115px) {
+  .contactUs {
+    padding: 100px 10px 70px 10px;
+  }
+  .contactUsContent {
+    align-items: center;
+  }
+  .contactUsLeft,
+  .contactUsLeftAr {
+    padding-bottom: 100px;
+  }
+  .contactUsLeftAr > .car,
+  .contactUsLeft > .car {
+    top: 177px;
+    left: 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contactUs {
+    background-color: #161920;
+    background-image: none;
+  }
+  .contactUsContent {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+  .contactUsLeftAr,
+  .contactUsLeft,
+  .contactUsRight {
+    width: 100%;
+  }
+  .contactUsLeftAr {
+    direction: ltr;
+  }
+  .contactUsLeftAr,
+  .contactUsLeft {
+    padding-bottom: 0px;
+  }
+  .contactUsTitle {
+    padding-left: 0px;
+  }
+  .contactUsTitle > img:first-child {
+    max-width: 45%;
+    margin-bottom: 30px;
+  }
+  .contactUsTitle > img:last-child {
+    max-width: 65%;
+    margin-bottom: 10px;
+  }
+  .contactUsLeftAr > .car,
+  .contactUsLeft > .car {
+    width: 90%;
+    position: static;
+  }
+}
+@media screen and (max-width: 400px) {
+  .contactUsTitle > img:first-child {
+    max-width: 60%;
+  }
+  .contactUsTitle > img:last-child {
+    max-width: 80%;
+  }
+  .RightTitle {
+    font-size: 30px;
+  }
+  .RightDesc {
+    font-size: 16px;
+  }
+}

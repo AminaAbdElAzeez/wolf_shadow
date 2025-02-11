@@ -1,0 +1,111 @@
+.custom {
+  background-image: url(../../../../../public/images/Rectangle-19338.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+}
+.customContent,
+.customContentAr {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  direction: ltr;
+  /* padding: 0 10px; */
+}
+.content {
+  padding: 0px 20px 80px 10px;
+}
+.title {
+  color: #ffffff;
+  width: max-content;
+  margin-bottom: 10px;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 68px;
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+}
+.subtitle {
+  color: #ce0909;
+  font-size: 30px;
+  font-weight: 500;
+}
+.subtitleAr {
+  color: #ce0909;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: right;
+}
+.title:hover {
+  /* color: #ce0909; */
+  animation: text-shadow-multicolor 2s ease 0s infinite normal none;
+}
+@keyframes text-shadow-multicolor {
+  0% {
+    text-shadow: 0 0px 15px #f0f;
+  }
+  33% {
+    text-shadow: 0 0px 15px #ff0;
+  }
+  66% {
+    text-shadow: 0 0px 10px #0f0;
+  }
+  100% {
+    text-shadow: 0 0px 10px #ce0909;
+  }
+}
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 39px;
+    line-height: 50px;
+  }
+  .subtitle,
+  .subtitleAr {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 561px) {
+  .title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .subtitle,
+  .subtitleAr {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 449px) {
+  .customContent {
+    align-items: flex-start;
+  }
+  .customContentAr {
+    align-items: flex-end;
+  }
+  .content {
+    padding: 0px 10px 80px 10px;
+  }
+  .title {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .subtitle,
+  .subtitleAr {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .title {
+    font-size: 21px;
+    line-height: 30px;
+  }
+  .subtitleAr,
+  .subtitle {
+    font-size: 18px;
+  }
+}

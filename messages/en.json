@@ -1,0 +1,172 @@
+{
+  "Header": {
+    "navHome": "Home",
+    "Works": "Works",
+    "services": "services",
+    "About": "About us",
+    "contact": "contact",
+    "OrderServices": "Order Services"
+  },
+
+  "Platform": {
+    "steps": "/ Car in easy staps",
+    "perfeet": "perfeet way to buy",
+    "sell": "and sell car on our",
+    "platform": "platform",
+    "KnewMore": "Knew More"
+  },
+  "Statistics": {
+    "CARRENTED": "CAR RENTED",
+    "SATISFIEDCLIENTS": "SATISFIED CLIENTS",
+    "YEARSEXPERIENCE": "YEARS EXPERIENCE",
+    "CARTYPES": "CAR TYPES"
+  },
+  "AboutUs": {
+    "aboutUsSubTitle": "about us",
+    "aboutUsTitle1": "providing reliable",
+    "aboutUsTitle2": "car rentals",
+    "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
+    "text2": "eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut",
+    "text3": "enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+    "text4": "nisi ut.",
+    "safe": "safe & Trusted",
+    "AffordablePrice": "Affordable Price"
+  },
+  "ChooseUs": {
+    "chooseUsTitle": "WHY CHOOSE US",
+    "chooseUsItemTitle": "Financing made easy",
+    "chooseUsItemDesc1": "Choose your and find",
+    "chooseUsItemDesc2": "your best car",
+    "chooseUsItemTitle2": "Wide range of brands",
+    "chooseUsItemDesc3": "Select your pick up date and",
+    "chooseUsItemDesc4": "time to book your car",
+    "chooseUsItemTitle3": "Trusted by thousands",
+    "chooseUsItemDesc5": "Book your car and we will deliver",
+    "chooseUsItemDesc6": "it directly to you"
+  },
+  "Offer": {
+    "offerSubtitle": "WHY CHOOSE US",
+    "offertitle1": "We offer the best experience",
+    "offertitle2": "with our rental deals",
+    "offertitle3": "Best price guaranteed",
+    "offerDesc1": "Find a lower price? We’ll refund you 100%",
+    "offerDesc2": "of the difference.",
+    "offertitle4": "Experience Services",
+    "offerDesc3": "Don’t worry, we have many experienced",
+    "offerDesc4": "services for you.",
+    "offertitle5": "24 hour car delivery",
+    "offerDesc5": "Book your car anytime and we will deliver it",
+    "offerDesc6": "directly to you.",
+    "offertitle6": "24/7 technical support",
+    "offerDesc7": "Have a question? Contact Rentcars support",
+    "offerDesc8": "any time when you have problem."
+  },
+  "OurServices": {
+    "OurServicesTitle": "Our Services",
+    "OurServicesDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+    "OurServicesItemTitle": "Paint protection films",
+    "OurServicesItemDesc": "Stop worrying about damage or scratches to your car's paint and other effects of smooth and textured surfaces.",
+    "OurServicesItemLink": "Order Services"
+  },
+  "ProfileSlider": {
+    "ProfileSliderSubTitle": "Our Works",
+    "ProfileSliderTitle": "Our providing reliable",
+    "ProfileSliderDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br/> tempor incididunt ut labore et dolore",
+    "ProfileSliderItemTitle": "Paint protection films"
+  },
+  "ContactUs": {
+    "ContactUsTitle": "Contact us",
+    "ContactUsDesc": "Select your pick up date and time to book your car",
+    "ContactUsBtn": "Send",
+    "ContactUsplaceholderName": "Full Name",
+    "ContactUsplaceholderEmail": "Email",
+    "ContactUsplaceholderSubject": "Subject",
+    "ContactUsplaceholderDetails": "Write Details"
+  },
+  "Footer": {
+    "footerDesc": "Lorem ipsum dolor sit amet, <br/> consectetur adipiscing elit, sed <br/> do eiusmod tempor incididunt.",
+    "footerMenuBar": "Menu Bar",
+    "footerHome": "Home",
+    "footerWorks": "Works",
+    "footerServices": "Services",
+    "footerAbout": "About us",
+    "footerContact": "Contact",
+    "footerQuickContact": "quick contact",
+    "footerAddress": "Saudi Arabia, <br/> Dammam, Jeddah",
+    "footerPhone": "+603 4784 273 12",
+    "footerEmail": "wolfshadow@gmail.com",
+    "footerCopyRight": "Copyright © 2025 Apps Square. All Rights Reserved.",
+    "footerPrivacy": "Privacy Policy",
+    "footerTerms": "Terms of Service"
+  },
+  "Custom": {
+    "customTitle": "Visualize, Customize, <br/> Actualize."
+  },
+  "VideoSection": {
+    "videoNotSupported": "Your browser does not support the video tag.",
+    "videoTitle": "WELCOME TO THE MOTORS WORLD",
+    "videoDesc": "Praesent consequat pharetra commodo. Vestibulum nec <br /> lectus nibh. Curabitur tellus leo, euismod sit amet gravida at, <br /> egestas sed lectus."
+  },
+  "TopServices": {
+    "servicesTitle": "Our Comprehensive <br /> Services",
+    "servicesSubTitle": "Discover Our Services"
+  },
+  "ServicesContent": {
+    "servicesSubTitle": "Our Services",
+    "servicesTitle": "Our providing reliable",
+    "servicesDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br/> tempor incididunt ut labore et dolore",
+    "servicesItemTitle": "Paint protection films",
+    "servicesItemDesc": "Stop worrying about damage or scratches to your <br /> car's paint and other effects of smooth and textured <br /> surfaces.",
+    "servicesItemLink": "Order Services"
+  },
+  "Mission": {
+    "missionTitle": "Our Mission and <br /> Values"
+  },
+  "Solution": {
+    "solutionLeftDesc": "We Care Health Programs for Everyone",
+    "solutionTitle": "Best Solution Provides <br /> Electric Vehicle",
+    "solutionDesc": "Car Dealer is the most enticing, creative, modern and <br /> multipurpose auto dealer Premium Wordpress Theme. <br /> Suitable for any car dealer websites, business or corporate <br />  websites.",
+    "solutionOnline": "Online Appointment",
+    "solutionAuto": "Auto Rent Service",
+    "solutionDesc2": "Car Dealer is the most enticing, creative, modern and multipurpose <br /> auto dealer Premium Wordpress Theme. Suitable for any car <br /> dealer websites, business or corporate websites."
+  },
+  "Performance": {
+    "performanceSubTitle": "Get to Know Us",
+    "performanceTitle1": "Welcome to ",
+    "performanceTitle2": " Wolf Shadow ",
+    "performanceTitle3": " Fab & <br /> Performance ",
+    "performanceDesc1": "Where passion meets precision. Since 1995, we've been <br /> redefining vehicle modification. Our friendly team of <br /> professionals shares a love for automotive mastery. <br /> We set trends with innovative excellence, ensuring your <br /> vehicle stands out. Elevate your ride with our <br /> commitment to precision. Join us on a journey where <br /> your automotive dreams become reality.",
+    "performanceDesc2": "Where passion meets precision. Since 1995, we've been <br /> redefining vehicle modification. Our friendly team of <br /> professionals shares a love for automotive mastery. <br /> We set trends with innovative excellence, ensuring your <br /> vehicle stands out. Elevate your ride with"
+  },
+  "TopContact": {
+    "topContactTitle": "Reach Out to Us"
+  },
+  "ContactInfo": {
+    "contactInfoContacts": "Contacts",
+    "contactInfoTitle": "Contact Information",
+    "contactInfoDesc": "Have a question or feedback? Reach out to us! We're here to assist <br/> you promptly and efficiently. Contact us today",
+    "contactInfoTitle2": "Work location",
+    "contactInfoLocation": "Saudi Arabia, Dammam, <br /> Jeddah",
+    "contactInfoTitle3": "Working hours",
+    "contactInfoTime1": "Work start Every day",
+    "contactInfoTime2": "from",
+    "contactInfoTime3": "9 AM to 10 PM",
+    "contactInfoTitle4": "Contact Via Phone Number",
+    "contactInfoPhone": "+5526587878"
+  },
+  "GoogleMaps": {
+    "googleMapsTitle": "Reach us via the map"
+  },
+  "Sent": {
+    "sentSubTitle": "Message sent",
+    "sentTitle": "sent successfully",
+    "sentDesc": "Your message was sent successfully, and we will reach you ASAP",
+    "sentBtn": "Done"
+  },
+  "Serve": {
+    "serveSubTitle": "Pending request",
+    "serveTitle": "Served successfully",
+    "serveDesc": "Please be patient, Until we reach you in ASAP",
+    "serveBtn": "Done"
+  }
+}
