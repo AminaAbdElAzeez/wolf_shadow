@@ -5,45 +5,45 @@ import ProfileTitle from "../profileTitle/profileTitle";
 import { useLocale, useTranslations } from "next-intl";
 
 function ServicePayment() {
-    const locale = useLocale();
-      const t = useTranslations("ServicePayment");
+  const locale = useLocale();
+  const t = useTranslations("ServicePayment");
   return (
     <section className={styles.servicePayment} id="servicesPayment">
       <div className="container">
         <ProfileTitle
-          subTitle= {t('ourServicesSubTitle')}
+          subTitle={t("ourServicesSubTitle")}
           text={{ textAlign: locale === "ar" ? "right" : "left" }}
-          title= {t('ourServicesTitle')}
-          desc= {t('ourServicesDesc')}
+          title={t("ourServicesTitle")}
+          desc={t("ourServicesDesc")}
         />
         <div className={styles.servicePaymentItem}>
           <h3 className={styles.servicePaymentItemTitle}>
             <div className={styles.servicePaymentItemTitleNumber}>1</div>
-             {t('servicePaymentItemTitle')}
+            {t("servicePaymentItemTitle")}
           </h3>
           <div className={styles.servicePaymentWrapper}>
             <div className={styles.servicePaymentLeft}>
               <div className={styles.servicePaymentBox}>
                 <div className={styles.servicePaymentBoxTop}>
-                  <h4>{t('servicePaymentItemTitle2')}</h4>
+                  <h4>{t("servicePaymentItemTitle2")}</h4>
                   <Space wrap>
                     <Select
-                      defaultValue={t('select1')}
+                      defaultValue={t("select1")}
                       style={{
                         width: 90,
                       }}
                       options={[
                         {
-                          value: t('select2'),
-                          label: t('select3'),
+                          value: t("select2"),
+                          label: t("select3"),
                         },
                         {
-                          value:t('select4'),
-                          label:t('select5'),
+                          value: t("select4"),
+                          label: t("select5"),
                         },
                         {
-                          value:t('select6'),
-                          label:t('select7'),
+                          value: t("select6"),
+                          label: t("select7"),
                         },
                         {
                           value: "disabled",
@@ -64,7 +64,7 @@ function ServicePayment() {
                         height={35}
                       />
                     </div>
-                    <h4>{t('servicePaymentItemTitle3')}</h4>
+                    <h4>{t("servicePaymentItemTitle3")}</h4>
                   </div>
                   <div className={styles.servicePaymentBoxBottomItem}>
                     <div className={styles.servicePaymentBoxBottomItemImg}>
@@ -75,7 +75,7 @@ function ServicePayment() {
                         height={35}
                       />
                     </div>
-                    <h4>{t('servicePaymentItemTitle4')}</h4>
+                    <h4>{t("servicePaymentItemTitle4")}</h4>
                   </div>
                   <div className={styles.servicePaymentBoxBottomItem}>
                     <div className={styles.servicePaymentBoxBottomItemImg}>
@@ -86,61 +86,61 @@ function ServicePayment() {
                         height={35}
                       />
                     </div>
-                    <h4>{t('servicePaymentItemTitle5')}</h4>
+                    <h4>{t("servicePaymentItemTitle5")}</h4>
                   </div>
                 </div>
               </div>
               <Space wrap style={{ width: "100%", display: "block" }}>
                 <Select
-                  defaultValue={t('selectService')}
+                  defaultValue={t("selectService")}
                   style={{
                     width: "100%",
                     height: "50px",
                   }}
                   options={[
-                        {
-                          value: t('select2'),
-                          label: t('select3'),
-                        },
-                        {
-                          value:t('select4'),
-                          label:t('select5'),
-                        },
-                        {
-                          value:t('select6'),
-                          label:t('select7'),
-                        },
-                        {
-                          value: "disabled",
-                          label: "Disabled",
-                          disabled: true,
-                        },
-                      ]}
+                    {
+                      value: t("select2"),
+                      label: t("select3"),
+                    },
+                    {
+                      value: t("select4"),
+                      label: t("select5"),
+                    },
+                    {
+                      value: t("select6"),
+                      label: t("select7"),
+                    },
+                    {
+                      value: "disabled",
+                      label: "Disabled",
+                      disabled: true,
+                    },
+                  ]}
                 />
               </Space>
             </div>
             <div className={styles.servicePaymentRight}>
               <div className={styles.servicePaymentBox}>
                 <div className={styles.servicePaymentBoxTop}>
-                  <h4> {t('servicePaymentItemTitle6')}</h4>
+                  <h4> {t("servicePaymentItemTitle6")}</h4>
                   <Space wrap>
                     <Select
-                      defaultValue={t('select1')}
+                      defaultValue={t("select1")}
                       style={{
                         width: 90,
                       }}
                       options={[
                         {
-                          value: t('select2'),
-                          label: t('select3'),
+                          value: t("select2"),
+                          label: t("select3"),
                         },
                         {
-                          value:t('select4'),
-                          label:t('select5'),
+                          value: t("select4"),
+                          label: t("select5"),
                         },
                         {
-                          value:t('select6'),
-                          label:t('select7'),
+                          value: t("select6"),
+                          label: t("select7"),
                         },
                         {
                           value: "disabled",
@@ -161,43 +161,43 @@ function ServicePayment() {
                         height={35}
                       />
                     </div>
-                    <h4>{t('servicePaymentItemTitle7')}</h4>
+                    <h4>{t("servicePaymentItemTitle7")}</h4>
                   </div>
                 </div>
               </div>
               <Space wrap style={{ width: "100%", display: "block" }}>
                 <Select
-                  defaultValue={t('selectBranch')}
+                  defaultValue={t("selectBranch")}
                   style={{
                     width: "100%",
                     height: "50px",
                   }}
                   options={[
-                        {
-                          value: t('select2'),
-                          label: t('select3'),
-                        },
-                        {
-                          value:t('select4'),
-                          label:t('select5'),
-                        },
-                        {
-                          value:t('select6'),
-                          label:t('select7'),
-                        },
-                        {
-                          value: "disabled",
-                          label: "Disabled",
-                          disabled: true,
-                        },
-                      ]}
+                    {
+                      value: t("select2"),
+                      label: t("select3"),
+                    },
+                    {
+                      value: t("select4"),
+                      label: t("select5"),
+                    },
+                    {
+                      value: t("select6"),
+                      label: t("select7"),
+                    },
+                    {
+                      value: "disabled",
+                      label: "Disabled",
+                      disabled: true,
+                    },
+                  ]}
                 />
               </Space>
             </div>
           </div>
           <h3 className={styles.servicePaymentItemTitle}>
             <div className={styles.servicePaymentItemTitleNumber}>2</div>
-             {t('servicePaymentItemTitle8')}
+            {t("servicePaymentItemTitle8")}
           </h3>
           <div className={styles.servicePaymentWrapper}>
             <div className={styles.servicePaymentLeft}>
@@ -209,24 +209,24 @@ function ServicePayment() {
                     height: "50px",
                   }}
                   options={[
-                        {
-                          value: t('select2'),
-                          label: t('select3'),
-                        },
-                        {
-                          value:t('select4'),
-                          label:t('select5'),
-                        },
-                        {
-                          value:t('select6'),
-                          label:t('select7'),
-                        },
-                        {
-                          value: "disabled",
-                          label: "Disabled",
-                          disabled: true,
-                        },
-                      ]}
+                    {
+                      value: t("select2"),
+                      label: t("select3"),
+                    },
+                    {
+                      value: t("select4"),
+                      label: t("select5"),
+                    },
+                    {
+                      value: t("select6"),
+                      label: t("select7"),
+                    },
+                    {
+                      value: "disabled",
+                      label: "Disabled",
+                      disabled: true,
+                    },
+                  ]}
                 />
               </Space>
             </div>
@@ -239,29 +239,29 @@ function ServicePayment() {
                     height: "50px",
                   }}
                   options={[
-                        {
-                          value: t('select2'),
-                          label: t('select3'),
-                        },
-                        {
-                          value:t('select4'),
-                          label:t('select5'),
-                        },
-                        {
-                          value:t('select6'),
-                          label:t('select7'),
-                        },
-                        {
-                          value: "disabled",
-                          label: "Disabled",
-                          disabled: true,
-                        },
-                      ]}
+                    {
+                      value: t("select2"),
+                      label: t("select3"),
+                    },
+                    {
+                      value: t("select4"),
+                      label: t("select5"),
+                    },
+                    {
+                      value: t("select6"),
+                      label: t("select7"),
+                    },
+                    {
+                      value: "disabled",
+                      label: "Disabled",
+                      disabled: true,
+                    },
+                  ]}
                 />
               </Space>
             </div>
           </div>
-          <div className={styles.servicePaymentType}>
+          {/*<div className={styles.servicePaymentType}>
             <h3>{t('servicePaymentItemTitle9')}</h3>
             <div className={styles.servicePaymentTypeWrapper}>
               <div className={styles.servicePaymentTypeItem}>
@@ -329,21 +329,21 @@ function ServicePayment() {
                 />
               </div>
             </div>
-          </div>
+          </div>*/}
           <h3 className={styles.servicePaymentItemTitle}>
             <div className={styles.servicePaymentItemTitleNumber}>3</div>
-             {t('servicePaymentItemTitle10')}
+            {t("servicePaymentItemTitle10")}
           </h3>
           <div className={styles.servicePaymentWrapper}>
             <div className={styles.servicePaymentLeft}>
               <input
-                placeholder={t('fullname')}
+                placeholder={t("fullname")}
                 type="text"
                 name="name"
                 autoComplete="on"
               />
               <input
-                placeholder={t('email')}
+                placeholder={t("email")}
                 type="email"
                 name="email"
                 autoComplete="on"
